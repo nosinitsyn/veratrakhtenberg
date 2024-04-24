@@ -35,9 +35,16 @@ padding-top: 10px;
 }
 
 .about_more{
+    white-space: nowrap;
     padding: 0 0 0 10px;
     cursor: pointer;
     color: red;
+}
+
+@media (max-width: 600px) {
+    .about_more{
+        padding: 0;
+    }
 }
 
 .links_container{
