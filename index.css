@@ -22,11 +22,16 @@ body{
 
 .about_container{
 max-width: 750px;
+padding-top: 10px;
 }
 
 
 .about_item{
-    padding-top: 10px ;
+
+}
+
+.about_divider{
+    padding-top: 10px;
 }
 
 .about_more{
