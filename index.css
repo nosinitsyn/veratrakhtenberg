@@ -16,9 +16,24 @@ body{
     line-height: 1.25rem;
     }
 
+.span{
+    font-weight: 700;
+}
+
+.header_container{
+    max-width: 750px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .header{
     font-weight: 700;
 }
+.header_year{
+    font-weight: 400;
+}
+
 
 .about_container{
 max-width: 750px;
@@ -31,7 +46,7 @@ padding-top: 10px;
 }
 
 .about_divider{
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .about_more{
@@ -56,9 +71,87 @@ padding-top: 10px;
     text-decoration: none;
 }
 
+.links_item:hover{
+    text-decoration: underline;
+}
+
+
+
 .connect_container{
     display: flex;
     flex-direction: column;
     gap:10px;
     padding: 20px 0 0 0;
 }
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.green{
+    color: green;
+}
+
+.list{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    padding: 10px 0 20px;
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.text_link{
+    text-decoration: none;
+    color: red;
+}
+
+.text_link:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+.project_container{
+    padding: 20px 0 40px;
+    max-width: 750px;
+
+}
+
+.project_text{
+
+}
+
+.image{
+    max-height: 400px;
+}
+
+
+@media (max-width: 500px) {
+    .image{
+        max-width: 300px;
+        max-height: 200px;
+        
+    
+    }
+    
+}
+
